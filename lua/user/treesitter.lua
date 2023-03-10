@@ -33,7 +33,7 @@ configs.setup {
   autopairs = {
     enable = true,
   },
-  indent = { enable = true, disable = { "python", "css" } },
+  indent = { enable = true, disable = { "python", "css", "c", "cpp" } },
 
   context_commentstring = {
     enable = true,
